@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int n;
+    scanf("%d", &n);
+    
+    int i;
+    int multiple;
+    for(i=1;;i++) {
+        multiple=n*i;
+        if (multiple>100) break;
+        else printf("%d ", multiple);
+    } 
+    return 0;
+}
